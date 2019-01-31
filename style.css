@@ -1,0 +1,716 @@
+/* ------------- General ------------ Style */
+
+body {
+    padding-top: 3.9rem;
+}
+
+/* ----- Navbar ----- */
+.nav {
+    background-color: #ffe6d0 !important;
+}
+
+.nav .btn {
+    background-color: blanchedalmond;
+}
+
+.navbar-brand {
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: lowercase;
+}
+
+hr {
+    width: 30%;
+    border: 1px solid gainsboro;
+}
+
+/* ---------------- Home --------------  */
+
+/* Banner Section */
+.home {
+    background-image: url('img/pexels-photo-509922.jpeg') !important;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.dark {
+    /* background-color: rgba(238, 238, 238, 0); */
+    height: 100%;
+    z-index: 2;
+}
+
+.caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 12rem;
+    z-index: 3;
+    color: rgb(31, 31, 31);
+}
+
+/* Section 1 */
+#sec1,
+#sec2,
+#sec3,
+#sec4,
+#sec5 {
+    padding: 3rem 0;
+}
+
+#sec1 img,
+#sec2 img {
+    max-width: 100%;
+}
+
+#sec1 h2,
+#sec2 h2,
+#sec5 h2 {
+    font-size: 2.5rem;
+}
+
+#sec3 h1,
+#sec4 h1 {
+    font-size: 3rem;
+}
+
+#sec1 hr,
+#sec2 hr {
+    width: 100%;
+}
+
+
+/* ---------------- Design Guidance --------------  */
+.interior {
+    background-image: url('img/pexels-photo-276534\ -\ Copy.jpeg') !important;
+    background-attachment: fixed;
+    background-size: contain;
+    padding: 0 !important;
+    height: 12rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.interior .dark {
+    background-color: rgba(238, 238, 238, 0.452);
+    height: 100%;
+    z-index: 2;
+}
+
+.interior .caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 4rem;
+    z-index: 3;
+    color: rgb(59, 59, 59);
+}
+
+
+#i-sec1,
+#i-sec2,
+#i-sec3,
+#i-sec4,
+#i-sec5,
+#i-sec6,
+#i-sec7 {
+    padding: 2rem 0;
+}
+
+#i-sec4 img,
+#i-sec5 img,
+#i-sec6 img {
+    max-width: 100%;
+}
+
+.interior-main h3,
+.interior-main h2 {
+    font-size: 2.5rem;
+}
+
+.ih3 {
+    font-size: 2.5rem;
+}
+
+.interior-main h4 {
+    font-size: 1.6rem;
+}
+
+.interior-main hr {
+    width: 100%;
+}
+
+.hr-short {
+    width: 10% !important;
+}
+
+
+
+
+
+
+/* ---------------- Room Touchup --------------  */
+.room {
+    background-image: url('img/pexels-photo-298842.jpeg') !important;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    padding: 0 !important;
+    height: 12rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.room .dark {
+    background-color: rgba(238, 238, 238, 0.452);
+    height: 100%;
+    z-index: 2;
+}
+
+.room .caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 4rem;
+    z-index: 3;
+    color: rgb(36, 35, 35);
+}
+
+#r-sec1,
+#r-sec2,
+#r-sec3,
+#r-sec4,
+#r-sec5,
+#r-sec6,
+#r-sec7 {
+    padding: 2rem 0;
+}
+
+#r-sec4 img,
+#r-sec5 img,
+#r-sec6 img {
+    max-width: 100%;
+}
+
+.room-main h3,
+.room-main h2 {
+    font-size: 2.5rem;
+}
+
+.room-main h4 {
+    font-size: 1.6rem;
+}
+
+.room-main hr {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* ---------------- Full Renovation --------------  */
+.full {
+    background-image: url('img/bed-bedroom-clean-775219.jpg') !important;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    padding: 0 !important;
+    height: 12rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.full .dark {
+    background-color: rgba(238, 238, 238, 0.452);
+    height: 100%;
+    z-index: 2;
+}
+
+.full .caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 4rem;
+    z-index: 3;
+    color: rgb(59, 59, 59);
+}
+
+#f-sec1,
+#f-sec2,
+#f-sec3,
+#f-sec4,
+#f-sec5,
+#f-sec6,
+#f-sec7 {
+    padding: 2rem 0;
+}
+
+#f-sec4 img,
+#f-sec5 img,
+#f-sec6 img {
+    max-width: 100%;
+}
+
+.full-main h3,
+.full-main h2 {
+    font-size: 2.5rem;
+}
+
+.full-main h4 {
+    font-size: 1.6rem;
+}
+
+.full-main hr {
+    width: 100%;
+}
+
+
+
+/* ---------------- Our Team --------------  */
+.team {
+    background-image: url('img/architecture-cabinets-carpet-245208.jpg') !important;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    padding: 0 !important;
+    height: 12rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.team .dark {
+    background-color: rgba(238, 238, 238, 0.452);
+    height: 100%;
+    z-index: 2;
+}
+
+.team .caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 4rem;
+    z-index: 3;
+    color: rgb(59, 59, 59);
+}
+
+#tm-sec1 h1 {
+    padding: 2.5rem;
+}
+
+#tm-sec1 img,
+#tm-sec2 img,
+#tm-sec3 img,
+#tm-sec4 img,
+#tm-sec5 img {
+    max-width: 100%;
+}
+
+#tm-sec1,
+#tm-sec2,
+#tm-sec3,
+#tm-sec4,
+#tm-sec5,
+#fm-sec6 {
+    padding: 2rem 0;
+}
+
+.team-main h3 {
+    font-size: 2.5rem;
+}
+
+.team-main h4 {
+    font-size: 1.6rem;
+}
+
+.team-main hr {
+    width: 100%;
+}
+
+
+
+
+
+/* ---------------- Book --------------  */
+.book-main #bk-banner {
+    background-image: url('img/pexels-photo-1090638.jpeg') !important;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    padding: 0 !important;
+    height: 12rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.book-main .dark {
+    background-color: rgba(238, 238, 238, 0.452);
+    height: 100%;
+    z-index: 2;
+}
+
+.book-main .caption {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 3rem;
+    z-index: 3;
+    color: rgb(59, 59, 59);
+}
+
+#bk-sec1 {
+    padding: 2rem 0;
+}
+
+.book-main h2,
+.book-main h1 {
+    font-size: 2.5rem;
+}
+
+.book-main .caption {
+    padding-top: 4rem;
+}
+
+.book-main hr {
+    width: 100%;
+}
+
+
+
+
+
+/* ---------------- About --------------  */
+.container-fluid#ab-sec1 {
+    background-image: url('img/pexels-photo-1090638.jpeg') !important;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    padding: 0 !important;
+    height: 12rem;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.container-fluid#ab-sec1 .bg-color {
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 0 !important;
+    height: 100%;
+}
+
+#ab-sec1 .container {
+    padding-top: 4rem;
+}
+
+#ab-sec1 h1 {
+    font-size: 2.5rem;
+}
+
+#ab-sec2 img {
+    max-width: 100%;
+}
+
+.about-main h3 {
+    font-size: 2.5rem;
+}
+
+.about-main hr {
+    width: 100%;
+}
+
+
+/* Footer */
+footer .svg-inline--fa {
+    font-size: 1.3rem;
+    margin: 1.2rem .5rem 0 0;
+    color: rgb(36, 36, 36) !important;
+}
+
+footer a {
+    text-decoration: none !important;
+}
+
+
+
+
+/* ------------------------------------ Media Queries ----------------------------- */
+
+@media (max-width: 425px) {
+    .home .caption h1 {
+        font-size: 2.5rem;
+    }
+
+    .home .caption {
+        padding-top: 12rem;
+    }
+    .interior, .room, .full, .team, .book-main #bk-banner, .container-fluid#ab-sec1 {
+        background-size: cover;
+        background-position: center;
+    }
+    .interior .caption, .full .caption, .team .caption, .book-main .caption {
+        padding-top: 2.5rem;
+    }
+}
+
+@media (min-width: 426px) {
+    .home .caption h1 {
+        font-size: 3rem;
+    }
+
+    .home .caption {
+        padding-top: 12rem;
+    }
+    .interior, .room, .full, .team, .book-main #bk-banner, .container-fluid#ab-sec1 {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .home .caption h1 {
+        font-size: 3rem;
+    }
+
+    .home .caption {
+        padding-top: 12rem;
+    }
+    .interior, .room, .full, .team, .book-main #bk-banner, .container-fluid#ab-sec1 {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .home .caption h1 {
+        font-size: 3rem;
+    }
+
+    .home .caption {
+        padding-top: 12rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home .caption {
+        padding-top: 16rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .home .caption {
+        padding-top: 20rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .home .caption {
+        padding-top: 45rem;
+    }
+}
+
+
+/* @media (max-width: 320px) {
+    .caption {
+        padding-top: 7rem;
+    }
+
+    .caption .display-2 {
+        font-size: 3.5rem;
+    }
+
+    .interior,
+    .room,
+    .full,
+    .team {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .interior .caption,
+    .full .caption,
+    .team .caption {
+        padding-top: 1.5rem;
+    }
+
+    .book-main #bk-banner {
+        background-size: cover;
+        background-position: top;
+    }
+
+    .book-main .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .book-main .caption {
+        padding-top: 1.5rem;
+    }
+
+    .container-fluid#ab-sec1 {
+        background-size: cover;
+        background-position: top;
+    }
+
+    .book-main .display-4,
+    #ab-sec1 h1 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .caption {
+        padding-top: 7rem;
+    }
+
+    .caption .display-2 {
+        font-size: 3.5rem;
+    }
+
+    .interior,
+    .room,
+    .full,
+    .team {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .interior .caption,
+    .full .caption,
+    .team .caption {
+        padding-top: 2.5rem;
+    }
+
+    .room .caption {
+        padding-top: 4rem;
+    }
+
+    .h32 {
+        font-size: 2rem !important;
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .book-main #bk-banner {
+        background-size: cover;
+        background-position: top;
+    }
+
+    .book-main .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .book-main .caption {
+        padding-top: 2.5rem;
+    }
+
+    .container-fluid#ab-sec1 {
+        background-size: cover;
+        background-position: top;
+    }
+
+    .book-main .display-4,
+    #ab-sec1 h1 {
+        font-size: 2.5rem;
+        padding-top: 4.5rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .caption {
+        padding-top: 8rem;
+    }
+    .caption .display-2 {
+        font-size: 3.5rem !important;
+    }
+    .interior,
+    .room,
+    .full,
+    .team {
+        background-size: cover;
+        background-position: center;
+    }
+    .ih3, .rh3, .fh3, .h32{
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 2rem !important;
+    }
+    .room .caption{
+        padding-top: 4rem;
+    }
+    #bk-banner h1.display-4{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .caption {
+        padding-top: 7rem;
+    }
+    .interior .caption,
+    .full .caption,
+    .team .caption {
+        padding-top: 4rem;
+    }
+    .ih3, .rh3, .fh3, .h32{
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 2rem !important;
+    }
+    .room .caption{
+        padding-top: 4rem;
+    }
+    #bk-banner h1.display-4{
+        font-size: 2.5rem;
+    }
+    .book-main .caption{
+        padding-top: 4rem;
+    }
+    .ah1{
+        font-size: 3rem !important;
+        padding-top: 2rem !important;
+    }
+} */
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
